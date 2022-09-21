@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Conquera';
+    src: url('Conquera-Bold.ttf') format(truetype), url('Conquera-Fine.ttf') format(truetype), url('Conquera-Heavy.ttf') format(truetype), url('Conquera-Inline.ttf') format(truetype), url('Conquera-Light.ttf') format(truetype), url('Conquera-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Supreme';
+    src: url('Supreme-Bold.otf') format(opentype), url('Supreme-BoldItalic.otf') format(opentype) url('Supreme-Extrabold.otf') format(opentype) url('Supreme-ExtraboldItalic.otf') format(opentype) url('Supreme-Extralight.otf') format(opentype) url('Supreme-ExtralightItalic.otf') format(opentype) url('Supreme-Italic.otf') format(opentype) url('Supreme-Light.otf') format(opentype) url('Supreme-LightItalic.otf') format(opentype) url('Supreme-Medium.otf') format(opentype) url('Supreme-MediumItalic.otf') format(opentype), url('Supreme-Regular.otf') format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #002c22;
+    background: linear-gradient(68.15deg, #002c22 85,61%, #000000 16.62%);
+  }
+
+  .cabecalho-h3 {
+    font-family: 'Conquera--bold';
+    font-size: 22px;
+    color:#00e4a1;
+    display:grid;
+
+  }
+  
+  .cabecalho-imagem {
+    height: 50px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Supreme';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px
+  }
+
+  .cabecalho-menu-btn1 {
+    font-family: 'Supreme';
+    background-color: #ffffff;
+    width: 120px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Conquera-fine';
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .cabecalho-menu-btn2 {
+    font-family: 'Supreme';
+    background-color: #00e4a1;
+    width: 120px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Conquera-fine';
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .cabecalho-menu-btn1:hover {
+    background-color: #006e50;
+  }
+
+  .cabecalho-menu-btn2:hover {
+    background-color: #006e50;
+  }
+
+  .cabecalho-menu-item:hover {
+    transform: scale(1.2);
+  }
+  
+  .conteudo {
+    margin-bottom: 5px;
+    border-top: 0.4px solid #2d6611;
+    background-color: #000000; 
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .conteudo-banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 1px transparent;
+  }
+  
+  .conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    background: #000000;
+  }
+
+  .seja-afiliado {
+    padding-top: 20px;
+    height: 120px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: transparent;
+    padding-top: 2px;
+    font-family: 'Conquera';
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .conteudo-h3 {
+    padding: 2%;
+    font-family: 'Supreme';
+    font-weight: 300;
+    font-size: 30px;
+    color:#ffffff;
+    text-align: center;
+    background: #006e50;
+    border-radius: 20px;
+    margin-bottom:60px;
+  }
+
+  .veja-como {
+    text-align: center;
+    font-family: 'Supreme' ;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .passos {
+    height: 50px;
+  }
+
+  .vamos-lucrar-juntos {
+    font-family: 'Conquera';
+    font-weight: 300;
+    font-size: 20px;
+    color:#ffffff;
+    text-align: justify;
+    text-decoration: underline;
+  }
+
+  .vamos-lucrar-juntos:hover {
+    transform: scale(1.3);
+    color:#006e50;
+  }
+
+  .row {
+    font-family: 'Supreme';
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+    color: #ECD6C4;
+    font-size: 20px;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 25px;
+  }
+   
+  .image {
+    max-width: 94px;
+    max-height: 94px;
+    align-self: center;
+  } 
+
+  .area-dos-afiliados {
+    height: 120px;
+  }
+  
+  .conteudo-secundario-paragrafo {
+    font-family: 'Conquera';
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+    text-align: justify;
+  }
+  
+  .rodape {
+      padding: 32px;
+      border-top: 0.4px solid #FFF2E7;
+      background-color: #ffffff;
+      text-align: center;
+  }
+  
+  .rodape-imagem {
+    height: 78px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .redes-sociais {
+    flex-direction: row;
+    color: #006e50;
+    padding: 20px;
+    font-size: 60px;
+  }
+
+  .menu.btn {
+    position: absolute;
+    color: #006e50;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  @media only screen and (max-width:850px) {
+    .menu.btn{
+      display: block;
+    }
+    .cabecalho-menu {
+      padding: 0;
+    }
+
+    .cabecalho-h3 {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+
+    .cabecalho-menu-item {
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      background: #006e50;
+      margin-top: -900%;
+      transition: all 0.5 ease;
+    }
+
+    .mobile-menu {
+      margin-top: 0px;
+      border-bottom-right-radius: 30%;
+    }
+
+    .cabecalho-menu-item a {
+      margin: 30px auto;
+    }
+  }
